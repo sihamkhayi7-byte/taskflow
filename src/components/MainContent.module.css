@@ -1,0 +1,40 @@
+.main {
+  flex: 1;
+  padding: 2rem;
+  overflow-x: auto;
+}
+
+.board {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.column {
+  background: #ebedf0;
+  border-radius: 8px;
+  width: 300px;
+  min-width: 300px;
+  padding: 1rem;
+}
+
+.colTitle {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.count {
+  background: #ccc;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}

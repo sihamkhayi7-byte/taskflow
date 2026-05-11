@@ -1,0 +1,12 @@
+.active {
+  font-weight: 600;
+  color: #1a73e8;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
